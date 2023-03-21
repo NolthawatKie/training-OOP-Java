@@ -2,11 +2,12 @@ class Employee {
 
     // Attribute
     private String id;
-    public String name;
-    public Double salary;
+    private String name;
+    private Double salary;
 
     // Static Attribue
     static int minSalary = 12000;
+    static int maxSalary = 50000;
 
     // Default Constructor
     public Employee() {
