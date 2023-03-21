@@ -1,7 +1,26 @@
 class Employee {
+    //Attribute
     private String id;
     private String name;
     private Double salary;
+
+    //Default Constructor
+    public Employee() {
+        // System.out.println("Create Object Completed");
+    }
+
+    public Employee(String id, String name) {
+        // System.out.println("Create Object Completed");
+        this.id = id;
+        this.name = name;
+    }
+
+    public Employee(String id, String name, Double salary) {
+        //System.out.println("Create Object Completed");
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+    }
 
     public void setId(String id){
         this.id = id;

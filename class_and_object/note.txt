@@ -1,0 +1,22 @@
+Access Modifier
+'
+'-- public 
+'   '-- all usage : O
+'   '-- same package : O 
+'   '-- diferent package : O 
+'   '-- diferent package with extends class: O 
+'   '-- same class : O
+'
+'-- protected
+'   '-- all usage : X
+'   '-- same package : O 
+'   '-- diferent package : X 
+'   '-- diferent package with extends class: O 
+'   '-- same class : O
+'
+'-- package
+'   '-- all usage : X
+'   '-- same package : O 
+'   '-- diferent package : X 
+'   '-- diferent package with extends class: X 
+'   '-- same class : O
