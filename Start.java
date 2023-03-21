@@ -6,7 +6,7 @@ class Start {
         Programmer p1 = new Programmer("P1", 20000.0);
         Accounting a1 = new Accounting("A1", 18000.0);
 
-        System.out.println(Company.name);
+        System.out.println(Company.NAME);
         Company.showService();
 
         
