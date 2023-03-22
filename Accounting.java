@@ -3,7 +3,11 @@ class Accounting extends Employee {
 
         // called contructor of super class
         super(name, salary);
-        
+
         System.out.println("I'm Accounting");
+    }
+
+    // override with abstract
+    public void bonus() {
     }
 }

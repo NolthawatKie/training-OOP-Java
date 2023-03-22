@@ -1,4 +1,4 @@
-class Employee {
+abstract class Employee {
 
     // Attribute
     private String id;
@@ -48,7 +48,8 @@ class Employee {
         return this.salary;
     }
 
-    public void bonus() {
-        System.out.println("Show Bonus Employee");
-    }
+    //abstract no detail get subclass to define the detail
+    public abstract void bonus(); //{
+        //System.out.println("Show Bonus Employee");
+    //}
 }
