@@ -4,7 +4,7 @@ class Start {
         //Employee e2 = new Employee();
 
         Programmer p1 = new Programmer();
-        p1.skill("Java", "C#", "C++");
+        p1.skill("Java", "C#", "Python");
         p1.bonus();
 
         Accounting a1 = new Accounting("A1", 18000.0);
