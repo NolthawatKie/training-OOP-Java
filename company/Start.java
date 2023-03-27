@@ -1,6 +1,6 @@
 class Start {
     public static void main(String[] args) {
-        //Employee e1 = new Employee("E1", 200000.0);
+        // Employee e1 = new Employee("E1", 200000.0);
         //Employee e2 = new Employee();
 
         Programmer p1 = new Programmer();
